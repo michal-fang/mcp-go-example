@@ -1,0 +1,16 @@
+# config.yaml
+mode: streamableHttp
+port: "8081"
+gin_mode: "release"
+
+log:
+  level: debug # 指定日志级别,可选值: debug, info, warn, error, dpanic, panic, fatal
+  format: json # 指定日志显示格式,可选值: text, json
+  output: "both"
+  timeFormat: "human"
+  filepath: "./logs/app.log"
+  maxSize: 10
+  maxBackups: 10
+  maxAge: 7
+  enableCaller: true # 是否开启 caller，如果开启会在日志中显示调用日志所在的文件和行号
+  disableStdout: false

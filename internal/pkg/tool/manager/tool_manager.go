@@ -2,7 +2,7 @@
 package manager
 
 import (
-	"mcp-go-tutorials/tool"
+	"mcp-go-tutorials/internal/pkg/tool"
 
 	"github.com/mark3labs/mcp-go/server"
 )

@@ -4,7 +4,7 @@ package impl
 import (
 	"context"
 	"fmt"
-	"mcp-go-tutorials/tool"
+	"mcp-go-tutorials/internal/pkg/tool"
 
 	"github.com/mark3labs/mcp-go/mcp"
 )

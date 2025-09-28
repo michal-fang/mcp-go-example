@@ -2,7 +2,7 @@ package impl
 
 import (
 	"context"
-	"mcp-go-tutorials/tool"
+	"mcp-go-tutorials/internal/pkg/tool"
 
 	"github.com/mark3labs/mcp-go/mcp"
 )
@@ -10,8 +10,6 @@ import (
 type StringReverseTool struct {
 	tool.BaseTool
 }
-
-var _ tool.Handler = (*StringReverseTool)(nil)
 
 // NewStringReverseTool 创建字符串反转工具
 func NewStringReverseTool() tool.Handler {
